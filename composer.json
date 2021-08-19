@@ -1,0 +1,20 @@
+{
+  "name": "ishop/composer",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "akarpovich",
+      "email": "email@example.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "ishop\\": "vendor/ishop/core",
+      "app\\": "app"
+    }
+  },
+  "require": {
+  }
+}
